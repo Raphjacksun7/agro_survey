@@ -156,6 +156,9 @@
 
       nz-radio-group {
         margin-bottom: 10px;
+        .ant-radio-inner::after {
+          background-color: #414042;
+        }
       }
 
       input {
@@ -199,8 +202,4 @@
       }
     }
   }
-}
-
-.ant-radio-inner::after {
-  background-color: #414042;
 }
