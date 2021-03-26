@@ -1,0 +1,44 @@
+<nz-layout class="main-layout">
+  <nz-header nz-row>
+    <div class="menu" nz-col nzSpan="4">
+      <i nz-icon nzType="menu" nzTheme="outline"></i>
+    </div>
+    <div class="account" nz-col nzSpan="6" nzOffset="14">
+      <div nz-row nzJustify="space-between">
+        <div nz-col nzSpan="6">
+          <img src="assets/icons/notification.png" alt="Notification" />
+        </div>
+        <h3 nz-col nzSpan="6">John Doe</h3>
+        <div nz-col nzSpan="6" class="avatar">
+          <img src="assets/imgs/avatar.png" alt="Avatar" />
+        </div>
+      </div>
+    </div>
+  </nz-header>
+  <nz-layout>
+    <nz-sider nzWidth="100px">
+      <ul>
+        <li>
+          <i nz-icon nzType="dashboard" nzTheme="outline"></i>
+          <span>Dashboard</span>
+        </li>
+        <li class="active">
+          <i nz-icon nzType="profile" nzTheme="outline"></i>
+          <span>Surveys</span>
+        </li>
+        <li>
+          <i nz-icon nzType="solution" nzTheme="outline"></i>
+          <span>Feed-backs</span>
+        </li>
+        <li>
+          <i nz-icon nzType="setting" nzTheme="outline"></i>
+          <span>Settings</span>
+        </li>
+      </ul>
+    </nz-sider>
+    <nz-layout class="inner-layout">
+      <!-- Inner Routes -->
+      <router-outlet></router-outlet>
+    </nz-layout>
+  </nz-layout>
+</nz-layout>

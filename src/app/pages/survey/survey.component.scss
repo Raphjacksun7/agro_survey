@@ -1,0 +1,80 @@
+.title {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.list {
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0.636641px 2.54656px 15.916px rgba(0, 0, 0, 0.1);
+  border-radius: 6.36641px;
+
+  .list_header {
+    margin-bottom: 10px;
+    justify-content: space-between;
+    h3,
+    button {
+      display: inline-block;
+    }
+
+    button {
+      background: #414042;
+      border: 1px solid #414042;
+      outline: none;
+      color: #ffffff;
+      i {
+        line-height: 2;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .list_search {
+    background: #f5f5f5;
+    border: 1px solid #8c9896;
+    border-radius: 4.5px;
+  }
+  .ant-input-affix-wrapper > input.ant-input {
+    background: #f5f5f5;
+  }
+}
+
+.forms_template {
+  padding: 0 15px;
+
+  ul.anticons-list {
+    margin: 10px 0;
+    overflow: hidden;
+    list-style: none;
+  }
+  ul.anticons-list li {
+    position: relative;
+    float: left;
+    width: 16.66%;
+    height: 100px;
+    margin: 3px 0;
+    padding: 10px 0 0;
+    overflow: hidden;
+    color: #555;
+    text-align: center;
+    list-style: none;
+    background-color: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  ul.anticons-list li i {
+    margin: 12px 0 8px;
+    font-size: 36px;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+  }
+
+  ul.anticons-list li .anticon-class {
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+    transform: scale(0.83);
+  }
+}
