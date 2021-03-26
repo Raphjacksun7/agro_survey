@@ -1,89 +1,148 @@
 <h2 class="title" nz-typography>SURVEYS</h2>
-<div nz-row>
-  <div class="list" nz-col nzSpan="7">
-    <div class="list_header" nz-row>
-      <h3>Survey List</h3>
-      <button nz-button nzShape="circle">
-        <i nz-icon nzType="plus"></i>
-      </button>
-    </div>
-    <div nz-row>
-      <nz-input-group class="list_search" [nzPrefix]="prefixIconSearch">
-        <input type="text" nz-input placeholder="Recherche" />
-      </nz-input-group>
-      <ng-template #prefixIconSearch>
-        <i nz-icon nzType="search"></i>
-      </ng-template>
+
+<div class="row">
+  <div class="col-lg-3">
+    <div class="list">
+      <div class="list_header" nz-row>
+        <h3>Survey List</h3>
+        <button nz-button nzShape="circle">
+          <i nz-icon nzType="plus"></i>
+        </button>
+      </div>
+      <div nz-row>
+        <nz-input-group class="list_search" [nzPrefix]="prefixIconSearch">
+          <input type="text" nz-input placeholder="Recherche" />
+        </nz-input-group>
+        <ng-template #prefixIconSearch>
+          <i nz-icon nzType="search"></i>
+        </ng-template>
+      </div>
+      <section nz-row>
+        <div class="item">
+          <div class="picture">
+            <img src="assets/icons/doc1.png" />
+          </div>
+          <div class="item_detail">
+            <h3>
+              <a href=""> ISO 2000</a>
+            </h3>
+            <span>Last update. 13 Dec 2019</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="picture">
+            <img src="assets/icons/doc2.png" />
+          </div>
+          <div class="item_detail">
+            <h3>
+              <a href=""> ACMA FORMS</a>
+            </h3>
+            <span>Last update. 27 Jul 2019</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="picture">
+            <img src="assets/icons/doc2.png" />
+          </div>
+          <div class="item_detail">
+            <h3>
+              <a href=""> BIO CERTIFICATE</a>
+            </h3>
+            <span>Last update. 13 Dec 2019</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="picture">
+            <img src="assets/icons/doc2.png" />
+          </div>
+          <div class="item_detail">
+            <h3>
+              <a href=""> DANONE CERTIFICATE</a>
+            </h3>
+            <span>Last update. 13 Dec 2019</span>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="picture">
+            <img src="assets/icons/doc1.png" />
+          </div>
+          <div class="item_detail">
+            <h3>
+              <a href=""> ISO 3050</a>
+            </h3>
+            <span>Last update. 13 Dec 2019</span>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
-  <div class="forms_template" nz-col nzSpan="7">
-    <h3>Forms templates</h3>
-    <div class="option_list" nz-row [nzGutter]="[16, 24]">
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> New Form </span>
+  <div class="col-lg-3">
+    <div class="forms_template">
+      <h3>Forms templates</h3>
+      <div class="option_list" nz-row [nzGutter]="[16, 24]">
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="form" nzTheme="outline"></i>
+          <span class="anticon-class"> New Form </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="idcard" nzTheme="outline"></i>
+          <span class="anticon-class"> ID </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="environment" nzTheme="outline"></i>
+          <span class="anticon-class"> Address </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="contacts" nzTheme="outline"></i>
+          <span class="anticon-class"> Contact </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="build" nzTheme="outline"></i>
+          <span class="anticon-class"> Skills </span>
+        </div>
       </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="idcard" nzTheme="outline"></i>
-        <span class="anticon-class"> ID </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="environment" nzTheme="outline"></i>
-        <span class="anticon-class"> Address </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="contacts" nzTheme="outline"></i>
-        <span class="anticon-class"> Contact </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="build" nzTheme="outline"></i>
-        <span class="anticon-class"> Skills </span>
-      </div>
-    </div>
-    <h3>Elements</h3>
-    <div class="option_list" nz-row [nzGutter]="[16, 24]">
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> New Form </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="idcard" nzTheme="outline"></i>
-        <span class="anticon-class"> ID </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="environment" nzTheme="outline"></i>
-        <span class="anticon-class"> Address </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="contacts" nzTheme="outline"></i>
-        <span class="anticon-class"> Contact </span>
-      </div>
-      <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
-        <i nz-icon nzType="build" nzTheme="outline"></i>
-        <span class="anticon-class"> Skills </span>
+      <h3>Elements</h3>
+      <div class="option_list" nz-row [nzGutter]="[16, 24]">
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="form" nzTheme="outline"></i>
+          <span class="anticon-class"> New Form </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="idcard" nzTheme="outline"></i>
+          <span class="anticon-class"> ID </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="environment" nzTheme="outline"></i>
+          <span class="anticon-class"> Address </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="contacts" nzTheme="outline"></i>
+          <span class="anticon-class"> Contact </span>
+        </div>
+        <div id="option_item" nz-col class="gutter-row" [nzSpan]="6">
+          <i nz-icon nzType="build" nzTheme="outline"></i>
+          <span class="anticon-class"> Skills </span>
+        </div>
       </div>
     </div>
   </div>
-  <div class="form_choose" nz-col nzSpan="10">
-    <div nz-row nzJustify="space-between">
-      <div nz-col nzSpan="8">
-        <h3 style="font-size: 13px; color: #60b237">Create your survey</h3>
-      </div>
-      <div nz-col nzSpan="8">
+  <div class="col-lg-6">
+    <div class="form_choose">
+      <div class="form_header" nz-row>
+        <h3>Create your survey</h3>
         <nz-button-group>
           <button class="cancel" style="border: none" nz-button>Cancel</button>
-          <button
-            class="save"
-            style="background-color: #414042"
-            nz-button
-            nzType="primary"
-          >
-            Save
+          <button class="save" nz-button>
             <i nz-icon nzType="save" nzTheme="outline"></i>
+            Save
           </button>
         </nz-button-group>
       </div>
+      <div nz-row class="form_view"></div>
     </div>
-    <div nz-row class="form_view"></div>
   </div>
 </div>
