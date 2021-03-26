@@ -172,7 +172,6 @@
         background-color: #f5f5f5;
       }
       [nz-radio] {
-        color: #414042;
         display: block;
         height: 32px;
         line-height: 32px;
@@ -200,4 +199,8 @@
       }
     }
   }
+}
+
+.ant-radio-inner::after {
+  background-color: #414042;
 }
