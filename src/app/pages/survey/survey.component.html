@@ -1,6 +1,6 @@
 <h2 class="title" nz-typography>SURVEYS</h2>
 <div nz-row>
-  <div class="list" nz-col nzSpan="6">
+  <div class="list" nz-col nzSpan="7">
     <div class="list_header" nz-row>
       <h3>Survey List</h3>
       <button nz-button nzShape="circle">
@@ -16,38 +16,30 @@
       </ng-template>
     </div>
   </div>
-  <div class="forms_template" nz-col nzSpan="6">
-    <h3>Directional Icons</h3>
-    <ul class="anticons-list">
-      <li>
+  <div class="forms_template" nz-col nzSpan="7">
+    <h3>Forms templates</h3>
+    <div class="option_list" nz-row [nzGutter]="[16, 24]">
+      <div id="option_item" nz-col class="gutter-row" [nzSpan]="8">
         <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-      <li>
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-      <li>
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-      <li>
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-      <li>
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-      <li>
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-      <li>
-        <i nz-icon nzType="form" nzTheme="outline"></i>
-        <span class="anticon-class"> step-backward </span>
-      </li>
-    </ul>
+        <span class="anticon-class"> New Form </span>
+      </div>
+      <div id="option_item" nz-col class="gutter-row" [nzSpan]="8">
+        <i nz-icon nzType="idcard" nzTheme="outline"></i>
+        <span class="anticon-class"> ID </span>
+      </div>
+      <div id="option_item" nz-col class="gutter-row" [nzSpan]="8">
+        <i nz-icon nzType="environment" nzTheme="outline"></i>
+        <span class="anticon-class"> Address </span>
+      </div>
+      <div id="option_item" nz-col class="gutter-row" [nzSpan]="8">
+        <i nz-icon nzType="contacts" nzTheme="outline"></i>
+        <span class="anticon-class"> Contact </span>
+      </div>
+      <div id="option_item" nz-col class="gutter-row" [nzSpan]="8">
+        <i nz-icon nzType="build" nzTheme="outline"></i>
+        <span class="anticon-class"> Skills </span>
+      </div>
+    </div>
   </div>
-  <div class="form_choose" nz-col nzSpan="8"></div>
+  <div class="form_choose" nz-col nzSpan="10"></div>
 </div>

@@ -42,39 +42,33 @@
 .forms_template {
   padding: 0 15px;
 
-  ul.anticons-list {
-    margin: 10px 0;
-    overflow: hidden;
-    list-style: none;
-  }
-  ul.anticons-list li {
-    position: relative;
-    float: left;
-    width: 16.66%;
-    height: 100px;
-    margin: 3px 0;
-    padding: 10px 0 0;
-    overflow: hidden;
-    color: #555;
-    text-align: center;
-    list-style: none;
-    background-color: inherit;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  .ant-col-8 {
+    max-width: 100%;
   }
 
-  ul.anticons-list li i {
-    margin: 12px 0 8px;
-    font-size: 36px;
-    transition: transform 0.3s ease-in-out;
-    will-change: transform;
-  }
+  .option_list {
+    margin: 0 !important;
+    padding: 0;
+    overflow: hidden;
 
-  ul.anticons-list li .anticon-class {
-    display: block;
-    white-space: nowrap;
-    text-align: center;
-    transform: scale(0.83);
+    #option_item {
+      overflow: hidden;
+      color: #414042;
+      padding: 12px 4px;
+      margin: 5px 3px;
+      text-align: center;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+      i {
+        font-size: 25px;
+        display: block;
+        margin-bottom: 5px;
+        span {
+          font-size: 10px;
+        }
+      }
+    }
   }
 }
