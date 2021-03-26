@@ -143,15 +143,69 @@
         </nz-button-group>
       </div>
       <div nz-row class="form_view">
-        <div class="row">
-          <div class="col-8">
+        <div class="row justify-content-between">
+          <div class="col-9">
             <input nz-input value="Section 1 Title" />
+            <span>Quiz 1</span>
+            <i
+              style="float: right; color: #60b237; cursor: pointer"
+              nz-icon
+              nzType="dash"
+              nzTheme="outline"
+            ></i>
             <textarea
               nz-input
               [nzAutosize]="{ minRows: 15, maxRows: 20 }"
             ></textarea>
           </div>
-          <div class="col-2">col-2</div>
+          <div class="col-1">
+            <ul>
+              <li class="add">
+                <i nz-icon nzType="plus-circle" nzTheme="outline"></i>
+              </li>
+              <li>
+                <i nz-icon nzType="delete" nzTheme="fill"></i>
+              </li>
+              <li style="color: #60b237">
+                <i nz-icon nzType="warning" nzTheme="fill"></i>
+              </li>
+              <li style="color: #60b237">
+                <i nz-icon nzType="setting" nzTheme="fill"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-9">
+            <input nz-input value="Section 1 Title" />
+            <span>Quiz 2</span>
+            <i
+              style="float: right; color: #60b237; cursor: pointer"
+              nz-icon
+              nzType="dash"
+              nzTheme="outline"
+            ></i>
+            <textarea
+              nz-input
+              [nzAutosize]="{ minRows: 15, maxRows: 20 }"
+            ></textarea>
+          </div>
+          <div class="col-1">
+            <ul>
+              <li class="add">
+                <i nz-icon nzType="plus-circle" nzTheme="outline"></i>
+              </li>
+              <li>
+                <i nz-icon nzType="delete" nzTheme="fill"></i>
+              </li>
+              <li style="color: #60b237">
+                <i nz-icon nzType="warning" nzTheme="fill"></i>
+              </li>
+              <li style="color: #60b237">
+                <i nz-icon nzType="setting" nzTheme="fill"></i>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
