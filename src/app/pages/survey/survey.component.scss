@@ -47,7 +47,7 @@
   }
 
   .option_list {
-    margin: 0 !important;
+    margin: 0 0 40px !important;
     padding: 0;
     overflow: hidden;
 
@@ -57,12 +57,13 @@
       padding: 12px 4px;
       margin: 5px 3px;
       text-align: center;
+      font-size: 10px;
       background-color: #f5f5f5;
       border-radius: 4px;
       cursor: pointer;
       transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
       i {
-        font-size: 25px;
+        font-size: 20px;
         display: block;
         margin-bottom: 5px;
         span {

@@ -7,6 +7,7 @@
 }
 
 nz-header {
+  position: fixed;
   width: 100%;
   z-index: 2;
   height: 70.54px;
@@ -34,6 +35,10 @@ nz-header {
 }
 
 nz-sider {
+  margin-top: 70.54px;
+  height: 100%;
+  position: fixed;
+  left: 0;
   background: #f5f5f5;
   box-shadow: 3.87597px 0px 11.6279px rgba(0, 0, 0, 0.15);
   border-right: 0;
@@ -63,6 +68,8 @@ nz-sider {
 }
 
 .inner-layout {
+  margin-top: 10px;
+  margin-left: 100px;
   padding: 24px;
   background: #fff;
 }
