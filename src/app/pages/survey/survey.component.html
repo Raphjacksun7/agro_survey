@@ -142,7 +142,19 @@
           </button>
         </nz-button-group>
       </div>
-      <div nz-row class="form_view"></div>
+      <div nz-row class="form_view">
+        <div class="row">
+          <div class="col-8">
+            <input nz-input value="Section 1 Title" />
+            <hr />
+            <textarea
+              nz-input
+              [nzAutosize]="{ minRows: 15, maxRows: 20 }"
+            ></textarea>
+          </div>
+          <div class="col-2">col-2</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
