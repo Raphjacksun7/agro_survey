@@ -11,6 +11,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzRadioModule } from 'ng-zorro-antd/radio';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { NzInputModule } from 'ng-zorro-antd/input';
     NzLayoutModule,
     NzGridModule,
     NzButtonModule,
-    NzInputModule
+    NzInputModule,
+    NzRadioModule
   ],
   declarations: [SurveyComponent],
   exports: [SurveyComponent]
