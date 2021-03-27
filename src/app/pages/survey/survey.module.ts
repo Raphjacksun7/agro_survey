@@ -25,7 +25,7 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
     NzButtonModule,
     NzInputModule,
     NzRadioModule,
-    NzModalModule
+    NzModalModule 
   ],
   declarations: [SurveyComponent],
   exports: [SurveyComponent]
